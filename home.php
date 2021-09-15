@@ -1189,7 +1189,7 @@
     <!-- Scroll Top -->
     <a id="scroll-top" href="#top" title="Top" role="button" class="scroll-top"><i class="d-icon-arrow-up"></i></a>
 
-    <div class="newsletter-popup mfp-hide" id="newsletter-popup" style="background-image: url(images/newsletter-popup.jpg)">
+    <!-- <div class="newsletter-popup mfp-hide" id="newsletter-popup" style="background-image: url(images/newsletter-popup.jpg)">
         <div class="newsletter-content">
             <h4 class="text-uppercase text-dark">Up to <span class="text-primary">20% Off</span></h4>
             <h2 class="font-weight-semi-bold">Sign up to <span>RIODE</span></h2>
@@ -1204,7 +1204,7 @@
                 <label for="hide-newsletter-popup">Don't show this popup again</label>
             </div>
         </div>
-    </div>
+    </div> -->
 
     <!-- Plugins JS File -->
     <script src="vendor/jquery/jquery.min.js"></script>

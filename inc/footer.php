@@ -12,8 +12,8 @@
                         <div class="col-lg-9">
                             <div class="widget widget-newsletter form-wrapper form-wrapper-inline">
                                 <div class="newsletter-info mx-auto mr-lg-2 ml-lg-4">
-                                    <h4 class="widget-title">Subscribe to our Newsletter</h4>
-                                    <p>Get all the latest information, Sales and Offers.</p>
+                                    <h4 class="widget-title">Newsletter</h4>
+                                    <p>Suscribe now and receive weekly newssletter</p>
                                 </div>
                                 <form action="#" class="input-wrapper input-wrapper-inline">
                                     <input type="email" class="form-control" name="email" id="email" placeholder="Email address here..." required />
@@ -29,25 +29,24 @@
                     <div class="row">
                         <div class="col-lg-3 col-md-6">
                             <div class="widget widget-info">
-                                <h4 class="widget-title">Contact Info</h4>
+                                <h4 class="widget-title">CONTACT INFO</h4>
                                 <ul class="widget-body">
                                     <li>
                                         <label>Phone:</label>
-                                        <a href="tel:#">Toll Free (123) 456-7890</a>
+                                        <a href="tel:#">(+94) 11 230 4380</a><br/>
+                                        <label>Fax:</label>
+                                        <a href="tel:#">(+94) 11 230 4381</a><br/>
+                                        <label>Sales Hotline:</label>
+                                        <a href="tel:#">(+94) 77 022 2999</a>
                                     </li>
+
                                     <li>
                                         <label>Email:</label>
-                                        <a href="mailto:mail@riode.com">mail@riode.com</a>
+                                        <a href="mailto:info@biz-machines.com">info@biz-machines.com</a>
                                     </li>
                                     <li>
                                         <label>Address:</label>
-                                        <a href="#">123 Street Name, City, England</a>
-                                    </li>
-                                    <li>
-                                        <label>WORKING DAYS / HOURS:</label>
-                                    </li>
-                                    <li>
-                                        <a href="#">Mon - Sun / 9:00 AM - 8:00 PM</a>
+                                        <a href="#"><br/>Business Machines Building, <br/>Ground Floor, <br/> #1 Lake Crescent, <br/>Colombo 02, 00200</a>
                                     </li>
                                 </ul>
                             </div>
@@ -55,22 +54,25 @@
                         </div>
                         <div class="col-lg-3 col-md-6">
                             <div class="widget ml-lg-4">
-                                <h4 class="widget-title">My Account</h4>
+                                <h4 class="widget-title">INFORMATION</h4>
                                 <ul class="widget-body">
                                     <li>
-                                        <a href="about-us.html">About Us</a>
+                                        <a href="home.php">Home</a>
                                     </li>
                                     <li>
-                                        <a href="#">Order History</a>
+                                        <a href="about.php">About us</a>
                                     </li>
                                     <li>
-                                        <a href="#">Returns</a>
+                                        <a href="afterSales">After sales</a>
                                     </li>
                                     <li>
-                                        <a href="#">Custom Service</a>
+                                        <a href="blogs">Blogs</a>
                                     </li>
                                     <li>
-                                        <a href="#">Terms &amp; Condition</a>
+                                        <a href="contact">Contact us</a>
+                                    </li>
+                                    <li>
+                                        <a href="terms">Terms and Conditions</a>
                                     </li>
                                 </ul>
                             </div>
@@ -78,22 +80,22 @@
                         </div>
                         <div class="col-lg-3 col-md-6">
                             <div class="widget ml-lg-4">
-                                <h4 class="widget-title">Contact Info</h4>
+                                <h4 class="widget-title">BEST SELLERS</h4>
                                 <ul class="widget-body">
                                     <li>
-                                        <a href="#">Sign in</a>
+                                        <a href="air.php">Air Purifiers</a>
                                     </li>
                                     <li>
-                                        <a href="cart.html">View Cart</a>
+                                        <a href="BiometricScanners.php">Biometric Scanners</a>
                                     </li>
                                     <li>
-                                        <a href="wishlist.html">My Wishlist</a>
+                                        <a href="CurrencyCounters.php">Currency Counters</a>
                                     </li>
                                     <li>
-                                        <a href="#">Track My Order</a>
+                                        <a href="MultimediaProjectors.php">Multimedia Projectors</a>
                                     </li>
                                     <li>
-                                        <a href="#">Help</a>
+                                        <a href="PaperShredders.php">Paper Shredders</a>
                                     </li>
                                 </ul>
                             </div>
@@ -101,7 +103,7 @@
                         </div>
                         <div class="col-lg-3 col-md-6">
                             <div class="widget widget-instagram">
-                                <h4 class="widget-title">Instagram</h4>
+                                <h4 class="widget-title">INSTAGRAM</h4>
                                 <figure class="widget-body row">
                                     <div class="col-3">
                                         <img src="images/instagram/01.jpg" alt="instagram 1" width="64" height="64" />
@@ -136,12 +138,12 @@
                 <!-- End FooterMiddle -->
                 <div class="footer-bottom">
                     <div class="footer-left">
-                        <figure class="payment">
+                        <!-- <figure class="payment">
                             <img src="images/payment.png" alt="payment" width="159" height="29" />
-                        </figure>
+                        </figure> -->
                     </div>
                     <div class="footer-center">
-                        <p class="copyright">Riode eCommerce &copy; 2021. All Rights Reserved</p>
+                        <p class="copyright">Copyrights &copy; 2018 Business Machines. All Rights Reserved | businessmachines.lk</p>
                     </div>
                     <div class="footer-right">
                         <div class="social-links">

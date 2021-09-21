@@ -215,44 +215,34 @@
                             <div class="megamenu">
                                 <div class="row">
                                     <div class="col-6 col-sm-4 col-md-3 col-lg-4">
-                                        <h4 class="menu-title">Product Pages</h4>
                                         <ul>
-                                            <li><a href="product-simple.html">Simple Product</a></li>
-                                            <li><a href="product.html">Variable Product</a></li>
-                                            <li><a href="product-sale.html">Sale Product</a></li>
-                                            <li><a href="product-featured.html">Featured &amp; On Sale</a></li>
-
-                                            <li><a href="product-left-sidebar.html">With Left Sidebar</a></li>
-                                            <li><a href="product-right-sidebar.html">With Right Sidebar</a></li>
-                                            <li><a href="product-sticky-cart.html">Add Cart Sticky<span class="tip tip-hot">Hot</span></a></li>
-                                            <li><a href="product-tabinside.html">Tab Inside</a></li>
+                                            <li><a href="AirPluifiers.php">Air Pluifiers</a></li>
+                                            <li><a href="BiometricScanners.php">Biometric Scanners</a></li>
+                                            <li><a href="CurrencyCounters.php">Currency Counters</a></li>
+                                            <li><a href="CurrencyDetectors.php">Currency Detectors</a></li>
+                                            <li><a href="CurrencyDisplays.php">Currency Displays</a></li>
+                                            <li><a href="InteractiveDisplays.php">Interactive Displays</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-6 col-sm-1 col-md-3 col-lg-4">
+                                        <ul>
+                                            <li><a href="MultimediaProjectors.php">Multimedia Projectors</a></li>
+                                            <li><a href="PaperBinder.php">Paper Binder</a></li>
+                                            <li><a href="PaperLaminator.php">Paper Laminator</a></li>
+                                            <li><a href="PassbookPrinter.php">Passbook Printer</a></li>
+                                            <li><a href="PassbookScanner.php">Passbook Scanner</a></li>
+                                            <li><a href="POSCashRegisters.php">POS Cash Registers</a></li>
                                         </ul>
                                     </div>
                                     <div class="col-6 col-sm-4 col-md-3 col-lg-4">
-                                        <h4 class="menu-title">Product Layouts</h4>
                                         <ul>
-                                            <li><a href="product-grid.html">Grid Images<span class="tip tip-new">New</span></a></li>
-                                            <li><a href="product-masonry.html">Masonry</a></li>
-                                            <li><a href="product-gallery.html">Gallery Type</a></li>
-                                            <li><a href="product-full.html">Full Width Layout</a></li>
-                                            <li><a href="product-sticky.html">Sticky Info</a></li>
-                                            <li><a href="product-sticky-both.html">Left &amp; Right Sticky</a>
-                                            </li>
-                                            <li><a href="product-horizontal.html">Horizontal Thumb</a></li>
-
-                                            <li><a href="#">Build Your Own</a></li>
+                                            <li><a href="PostalFranking.php">Postal Franking</a></li>
+                                            <li><a href="PaperShredders.php">Paper Shredders</a></li>
+                                            <li><a href="InteractiveWhiteBoards.php">Interactive White Boards</a></li>
+                                            <li><a href="TimeRecorder.php">Time Recorder</a></li>
+                                            <li><a href="TrimmersGuillotines.php">Trimmers Guillotines</a></li>
+                                            <li><a href="Accessories.php">Accessories</a></li>
                                         </ul>
-                                    </div>
-                                    <div class="col-6 col-sm-4 col-md-3 col-lg-4 menu-banner menu-banner2 banner banner-fixed">
-                                        <figure>
-                                            <img src="images/menu/banner-2.jpg" alt="Menu banner" width="221" height="330" />
-                                        </figure>
-                                        <div class="banner-content x-50 text-center">
-                                            <h3 class="banner-title text-white text-uppercase">Sunglasses</h3>
-                                            <h4 class="banner-subtitle font-weight-bold text-white mb-0">$23.00
-                                                -
-                                                $120.00</h4>
-                                        </div>
                                     </div>
                                     <!-- End MegaMenu -->
                                 </div>

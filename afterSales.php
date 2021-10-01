@@ -53,147 +53,41 @@
                 <div class="container">
                     <ul class="breadcrumb">
                         <li><a href="demo1.html"><i class="d-icon-home"></i></a></li>
-                        <li>Contact Us</li>
+                        <li>After Sales</li>
                     </ul>
                 </div>
             </nav>
-            <!-- <div class="page-header" style="background-image: url(images/page-header/contact-us.jpg)">
-                <h1 class="page-title font-weight-bold text-capitalize ls-l">Contact Us</h1>
-            </div><br /><br /><br /> -->
 
-            <br />
-
-            <div class="block fullwidth no-pad">
+            <div class="page-content">
                 <div class="container">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7921.552775334955!2d79.857697!3d6.917316!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xfea654846450b239!2sBusiness%20Machines%20Co.%20(Pvt)%20Ltd.!5e0!3m2!1sen!2slk!4v1631601550158!5m2!1sen!2slk" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    <section class="category-section badge-section mt-10 pt-4 pb-10 mb-10">
+                        <div class="row grid gutter-sm">
+                            <div class="grid-item col-md-6 height-x2">
+                                <div class="category category-badge category-absolute overlay-dark">
+                                    <a href="#">
+                                        <figure class="category-media">
+                                            <img src="images/categories/category16.jpg" alt="category" width="585" height="397" />
+                                        </figure>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="grid-item col-md-6 height-x5">
+                                <div class="category category-badge category-absolute overlay-dark">
+                                    <p style="text-align:justify">At Business Machines, our expertise in office automation has allowed our valued clients to achieve the highest standards of quality and efficiency, even after the sale is complete.</p>
+                                    <p style="text-align:justify">We give high priority to customer satisfaction and we believe that what truly counts after the sale is the level of service, which is exactly why we go above and beyond to deliver the best after sales services. We will maintain ongoing relationships with our clients to make sure that they get the most out of their office automation solutions.</p>
+                                    <p style="text-align:justify">We provide comprehensive warranty that is provided for all products with a one-for-one replacement facility for selected products. During the course of the warranty period, warranty preventive maintenance servicing is carried out every three months and all servicing and spare parts are provided free of charge, although it is subject to certain conditions and excludes parts of consumable nature.</p>
+                                    <p style="text-align:justify">We also provide standard and comprehensive maintenance contract facilities in addition to in-house customer support and a committed IT help desk to manage and respond to all customer inquiries, clarifications and address complaints. Should our customers wish to gain technical assistance on any of our office automation solutions, our well trained technical support is accessible island-wide for your convenience.</p><br/>
+                                </div>
+                            </div>
+                            <p style="text-align:justify">We can also provide the help of technical personnel during weekends, if situations call for such actions and our technical experts are well equipped with replacement spares to carry out emergency repairs at any time as well.</p>
+                            <p style="text-align:justify">When necessary, back-up machines will be provided as well and if we repair the machine at our premise, the customer will be given a back-up similar or equivalent to the machine being repaired. This will be valid during the course of the warranty. Once the warranty has reached its date of expiry, our customers can get in touch with us for an Annual Service and Annual Comprehensive Maintenance Contract facility on the basis of an annual premium paid in advance. Such contracts also offer pre scheduled preventive maintenance services and any number of visits at no additional charges. However, relocation of equipment is not covered under such contracts.
+                                All of the above described after sales services highlight our commitment to customer satisfaction on a long term basis. We strive to offer our valued customers added value for their money and our comprehensive after sales services and streamlined responses to any inquiries are guaranteed to offer complete peace of mind that top quality service will never be compromised here at Business Machines.</p>
+                            <div class="col-1 grid-space"></div>
+                        </div>
+                    </section>
                 </div>
             </div>
 
-            <div class="page-content mt-10 pt-7">
-                <section class="contact-section">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-lg-3 col-md-4 col-sm-6 ls-m mb-4">
-                                <div class="grey-section d-flex align-items-center h-100">
-                                    <div>
-                                        <h4 class="mb-2 text-capitalize">Address</h4>
-                                        <p>Business Machines Building,<br>Ground Foor<br>#1 Lake Crescent,<br>Colombo 02, 00200.</p>
-
-                                        <h4 class="mb-2 text-capitalize">Email Address</h4>
-                                        <p>
-                                            <a href="#">info@businessmachines.lk</a><br>
-                                        </p>
-
-                                        <h4 class="mb-2 text-capitalize">Support</h4>
-                                        <p class="mb-4">
-                                            <a href="tel:#">Phone: (+94) 11 230 4380</a><br>
-                                            <a href="tel:#">Fax: (+94) 11 230 4381</a><br>
-                                            <a href="tel:#">Sales Hotline: (+94) 77 022 2999</a>
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-lg-9 col-md-8 col-sm-6 d-flex align-items-center mb-4">
-                                <div class="w-100">
-                                    <form class="pl-lg-2" action="#">
-                                        <h4 class="ls-m font-weight-bold">Let’s Connect</h4>
-                                        <p>Your email address will not be published. Required fields are
-                                            marked *</p>
-                                        <div class="row mb-2">
-                                            <div class="col-md-6 mb-4">
-                                                <input class="form-control" type="text" placeholder="Name *" required>
-                                            </div>
-                                            <div class="col-md-6 mb-4">
-                                                <input class="form-control" type="email" placeholder="Email *" required>
-                                            </div>
-                                            <div class="col-md-12 mb-4">
-                                                <input class="form-control" type="tel" placeholder="Phone Number *" required>
-                                            </div>
-                                            <div class="col-12 mb-4">
-                                                <textarea class="form-control" required placeholder="Message *"></textarea>
-                                            </div>
-                                        </div>
-                                        <button class="btn btn-dark btn-rounded">SEND<i class="d-icon-arrow-right"></i></button>
-                                    </form><br/>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </section><br />
-                <!-- End About Section-->
-
-                <!-- <section class="store-section mt-6 pt-10 pb-8">
-                    <div class="container">
-                        <h2 class="title title-center mb-7 text-normal">Our store</h2>
-                        <div class="row cols-sm-2 cols-lg-4">
-                            <div class="store">
-                                <figure class="banner-radius">
-                                    <img src="images/subpages/store-1.jpg" alt="store" width="280" height="280">
-                                    <h4 class="overlay-visible">New York</h4>
-                                    <div class="overlay overlay-transparent">
-                                        <a class="mt-8" href="mail:#">mail@newyorkriodestore.com</a>
-                                        <a href="tel:#">Phone: (123) 456-7890</a>
-                                        <div class="social-links mt-1">
-                                            <a href="#" class="social-link social-facebook fab fa-facebook-f"></a>
-                                            <a href="#" class="social-link social-twitter fab fa-twitter"></a>
-                                            <a href="#" class="social-link social-linkedin fab fa-linkedin-in"></a>
-                                        </div>
-                                    </div>
-                                </figure>
-                            </div>
-                            <div class="store">
-                                <figure class="banner-radius">
-                                    <img src="images/subpages/store-2.jpg" alt="store" width="280" height="280">
-                                    <h4 class="overlay-visible">London</h4>
-                                    <div class="overlay overlay-transparent">
-                                        <a class="mt-8" href="mail:#">mail@londonriodestore.com</a>
-                                        <a href="tel:#">Phone: (123) 456-7890</a>
-                                        <div class="social-links mt-1">
-                                            <a href="#" class="social-link social-facebook fab fa-facebook-f"></a>
-                                            <a href="#" class="social-link social-twitter fab fa-twitter"></a>
-                                            <a href="#" class="social-link social-linkedin fab fa-linkedin-in"></a>
-                                        </div>
-                                    </div>
-                                </figure>
-                            </div>
-                            <div class="store">
-                                <figure class="banner-radius">
-                                    <img src="images/subpages/store-3.jpg" alt="store" width="280" height="280">
-                                    <h4 class="overlay-visible">Oslo</h4>
-                                    <div class="overlay overlay-transparent">
-                                        <a class="mt-8" href="mail:#">mail@osloriodestore.com</a>
-                                        <a href="tel:#">Phone: (123) 456-7890</a>
-                                        <div class="social-links mt-1">
-                                            <a href="#" class="social-link social-facebook fab fa-facebook-f"></a>
-                                            <a href="#" class="social-link social-twitter fab fa-twitter"></a>
-                                            <a href="#" class="social-link social-linkedin fab fa-linkedin-in"></a>
-                                        </div>
-                                    </div>
-                                </figure>
-                            </div>
-                            <div class="store">
-                                <figure class="banner-radius">
-                                    <img src="images/subpages/store-4.jpg" alt="store" width="280" height="280">
-                                    <h4 class="overlay-visible">Stockholm</h4>
-                                    <div class="overlay overlay-transparent">
-                                        <a class="mt-8" href="mail:#">mail@stockholmriodestore.com</a>
-                                        <a href="tel:#">Phone: (123) 456-7890</a>
-                                        <div class="social-links mt-1">
-                                            <a href="#" class="social-link social-facebook fab fa-facebook-f"></a>
-                                            <a href="#" class="social-link social-twitter fab fa-twitter"></a>
-                                            <a href="#" class="social-link social-linkedin fab fa-linkedin-in"></a>
-                                        </div>
-                                    </div>
-                                </figure>
-                            </div>
-                        </div>
-                    </div>
-                </section> -->
-                <!-- End Store Section -->
-
-                <!-- Google Maps - Go to the bottom of the page to change settings and map location. -->
-            </div>
         </main>
         <!-- footer -->
         <?php

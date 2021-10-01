@@ -5,7 +5,7 @@
                     <div class="row align-items-center">
                         <div class="col-lg-3">
                             <a href="demo1.html" class="logo-footer">
-                                <img src="images/logo-footer.png" alt="logo-footer" width="154" height="43" />
+                                <img src="images/logo-footer.png" alt="logo-footer" width="250" height="43" />
                             </a>
                             <!-- End FooterLogo -->
                         </div>

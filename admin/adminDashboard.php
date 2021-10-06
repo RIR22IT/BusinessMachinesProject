@@ -1,10 +1,10 @@
 <?php include('../database/connection.php'); ?>
+<?php include('../admin/php_code.php'); ?>
 <?php
 session_start();
 if (!isset($_SESSION['email'])) {
     header("location: index.php");
 }
-
 ?>
 
 <!DOCTYPE html>
@@ -62,27 +62,7 @@ if (!isset($_SESSION['email'])) {
     <!-- Page Wrapper -->
     <div id="wrapper">
 
-        <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
-
-            <!-- Sidebar - Brand -->
-            <a class="sidebar-brand d-flex align-items-center justify-content-center" href="adminPanel.php">
-                <div class="sidebar-brand-icon">
-                    <i class="fas fa-users-cog"></i>
-                </div>
-                <div class="sidebar-brand-text mx-3">ADMIN</div>
-            </a>
-
-            <!-- Divider -->
-            <hr class="sidebar-divider my-0">
-
-            <!-- Nav Item - Dashboard -->
-            <li class="nav-item">
-                <a class="nav-link" href="adminDashboard.php">
-                    <i class="fas fa-fw fa-tachometer-alt"></i>
-                    <span>ADMIN PANEL</span></a>
-            </li>
-
-        </ul>
+        <?php include('./pageWrapper.php') ?>
         <!-- End of Sidebar -->
 
         <!-- Content Wrapper -->
@@ -119,11 +99,111 @@ if (!isset($_SESSION['email'])) {
                 <!-- End of Topbar -->
 
                 <!-- Begin Page Content -->
-                <div class="container-fluid" style="width: 1300px;">
+                <div class="container-fluid" style="width: 1500px;">
                     <!-- Page Heading -->
                     <center>
-                        <h1 class="h3 mb-1 text-gray-800">ADMIN PANEL</h1>
+                        <h1 class="h3 mb-1 text-gray-800">ADD PRODUCTS</h1>
                     </center>
+
+                    <form method="post" action="viewDashboard.php" enctype="multipart/form-data">
+                        <div class="row">
+
+                            <div class="col-md-offset-1 col-md-12" style="bottom: -18px;">
+
+                                <div class="col-15">
+                                    <center>
+                                        <div id="preview"></div><br />
+                                    </center>
+                                    <label for="img">Product Image*</label>
+                                    <input type="file" class="form-control" id="img" name="img" onchange="getImagePreview(event)" required><br />
+                                </div>
+
+                                <div class="col-15">
+                                    <select class="form-control" id="category" name="category" style="height: 50px;" required>
+                                        <option selected disabled="disabled">Select Category</option>
+                                        <option value="Biometric Devices">Biometric Devices</option>
+                                        <option value="Video Conferencing">Video Conferencing</option>
+                                        <option value="Bank Equipment">Bank Equipment</option>
+                                        <option value="Office Equipment">Office Equipment</option>
+                                        <option value="Health & Wellbeing">Health & Wellbeing</option>
+                                        <option value="Retail">Retail</option>
+                                        <option value="Security">Security</option>
+                                        <option value="Software">Software</option>
+                                    </select>
+                                </div><br>
+
+                                <div class="col-15">
+                                    <select class="form-control" id="subcategory" name="subcategory" style="height: 50px;" required>
+                                        <option selected disabled="disabled">Select Sub category</option>
+                                        <option value="Time & Attendance">Time & Attendance</option>
+                                        <option value="Access Control">Access Control</option>
+                                        <option value="Access Control Locks & Brackets">Access Control Locks & Brackets</option>
+                                        <option value="Access Control Accessories">Access Control Accessories</option>
+                                        <option value="USB Video Conferencing ">USB Video Conferencing </option>
+                                        <option value="Video Conferencing Accessories">Video Conferencing Accessories</option>
+                                        <option value="Display">Display</option>
+                                        <option value="Single Pocket Currency Counter">Single Pocket Currency Counter</option>
+                                        <option value="Double Pocket Currency Counter">Double Pocket Currency Counter</option>
+                                        <option value="Printer">Printer</option>
+                                        <option value="Paper Shredders">Paper Shredders</option>
+                                        <option value="Postal Franking Machines">Postal Franking Machines</option>
+                                        <option value="Postal Franking Machines Supplies">Postal Franking Machines Supplies</option>
+                                        <option value="Air Purifiers">Air Purifiers</option>
+                                        <option value="HEPA Filters">HEPA Filters</option>
+                                        <option value="Carbon Filters">Carbon Filters</option>
+                                        <option value="Hybrid Filters">Hybrid Filters</option>
+                                    </select>
+                                </div><br>
+
+                                <div class="col-15">
+                                    <label>Warranty*</label>
+                                    <input type="text" name="warranty" class="form-control" value="" required>
+                                </div><br>
+
+                            </div>
+
+                            <div class="col-md-offset-1 col-md-6"><br>
+
+                                <div class="col-15">
+                                    <label>Type*</label>
+                                    <input type="text" name="type" class="form-control" value="" required>
+                                </div><br>
+
+                                <div class="col-15">
+                                    <label>Brand*</label>
+                                    <input type="text" class="form-control" name="brand" value="" required>
+                                </div><br>
+                            </div>
+
+                            <div class="col-md-offset-1 col-md-6" style="bottom: -22px;">
+
+                                <div class="col-15">
+                                    <label>Product Models*</label>
+                                    <input type="text" name="model" class="form-control" value="" required>
+                                </div><br>
+
+                                <div class="col-15">
+                                    <label>Price*</label>
+                                    <input type="number" name="price" class="form-control" value="" required>
+                                </div><br>
+                            </div>
+
+                            <div class="col-15">
+                                <label>Features*</label>
+                                <textarea id="features" name="features" rows="3" cols="70" style="border-color: #c3c6c9;" required>
+                                    </textarea><br><br>
+
+                                <label>Description*</label>
+                                <textarea id="description" name="description" rows="3" cols="70" style="border-color: #c3c6c9;" required>
+                                </textarea><br><br>
+
+                            </div><br>
+
+                            <div class="col-md-20">
+                                <button type="submit" name="save" class="btn btn-primary" style="width: 100%;">ADD</button>
+                            </div>
+
+                    </form>
 
                     <div class="card-body">
                         <?php
@@ -150,39 +230,31 @@ if (!isset($_SESSION['email'])) {
                 <!-- End of Content Wrapper -->
 
             </div>
-            <!-- End of Page Wrapper -->
-
-            <!-- Scroll to Top Button -->
-            <a class="scroll-to-top rounded" href="#page-top">
-                <i class="fas fa-angle-up"></i>
-            </a>
-
-            <!-- Logout Modal-->
-            <!-- <div class="modal fade" id="logoutModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog" role="document">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h5 class="modal-title" id="exampleModalLabel">Ready to Leave?</h5>
-              <button class="close" type="button" data-dismiss="modal" aria-label="Close">
-                <span aria-hidden="true">×</span>
-              </button>
-            </div>
-            <div class="modal-body">Select "Logout" below if you are ready to end your current session.</div>
-            <div class="modal-footer">
-              <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
-              <a class="btn btn-primary" href="newlogin.php">Logout</a>
-            </div>
-
-          </div>
         </div>
-      </div> -->
+        <!-- End of Page Wrapper -->
 
-            <!-- Bootstrap core JavaScript-->
-            <script src="../vendor/jquery/jquery.min.js"></script>
-            <script src="../vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+        <!-- Scroll to Top Button -->
+        <a class="scroll-to-top rounded" href="#page-top">
+            <i class="fas fa-angle-up"></i>
+        </a>
 
-            <!-- Core plugin JavaScript-->
-            <script src="../vendor/jquery-easing/jquery.easing.min.js"></script>
+        <!-- Bootstrap core JavaScript-->
+        <script src="../vendor/jquery/jquery.min.js"></script>
+        <script src="../vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+        <!-- Core plugin JavaScript-->
+        <script src="../vendor/jquery-easing/jquery.easing.min.js"></script>
+        <script type="text/javascript">
+            function getImagePreview(event) {
+                var image = URL.createObjectURL(event.target.files[0]);
+                var imagediv = document.getElementById('preview');
+                var newimg = document.createElement('img');
+                imagediv.innerHTML = '';
+                newimg.src = image;
+                newimg.width = "300";
+                imagediv.appendChild(newimg);
+            }
+        </script>
 
 </body>
 

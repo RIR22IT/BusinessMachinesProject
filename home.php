@@ -111,11 +111,11 @@
                                         <div class="row">
                                             <div class="col-10 col-sm-4 col-md-3 col-lg-4">
                                                 <ul>
-                                                    <li><a href="TimeAttendance.php">Time & Attendance</a></li>
-                                                    <li><a href="SpecialProjects.php">Special Projects</a></li>
-                                                    <li><a href="AccessControl.php">Access Control</a></li>
-                                                    <li><a href="AccessControlLocks&Brackets.php">Access Control Locks & Brackets</a></li>
-                                                    <li><a href="AccessControlAccessories.php">Access Control Accessories</a></li>
+                                                    <li><a href="allProducts.php">Time & Attendance</a></li>
+                                                    <li><a href="allProducts.php">Special Projects</a></li>
+                                                    <li><a href="allProducts.php">Access Control</a></li>
+                                                    <li><a href="allProducts.php">Access Control Locks & Brackets</a></li>
+                                                    <li><a href="allProducts.php">Access Control Accessories</a></li>
                                                     <li><a href="USBVideoConferencing.php">USB Video Conferencing</a></li>
                                                 </ul>
                                             </div>

@@ -20,7 +20,6 @@ if (isset($_GET['edit'])) {
             $subcategory = $n['subcategory'];
             $warranty = $n['warranty'];
             $features = $n['features'];
-            $description = $n['description'];
             $type = $n['type'];
             $brand = $n['brand'];
             $model = $n['model'];
@@ -312,13 +311,8 @@ if (isset($_GET['edit'])) {
 
                             <div class="col-15">
                                 <label>Features*</label>
-                                <textarea id="features" name="features" rows="3" cols="70" style="border-color: #c3c6c9;" required><?php echo $features; ?>
-                                    </textarea><br><br>
-
-                                <label>Description*</label>
-                                <textarea id="description" name="description" rows="3" cols="70" style="border-color: #c3c6c9;" required><?php echo $description; ?>
+                                <textarea id="features" name="features" required><?php echo $features; ?>
                                 </textarea><br><br>
-
                             </div><br><br>
 
                             <?php if ($update == true) : ?>
@@ -378,6 +372,12 @@ if (isset($_GET['edit'])) {
                 newimg.width = "300";
                 imagediv.appendChild(newimg);
             }
+        </script>
+
+        <!-- CK EDITOR -->
+        <script src="../ckeditor/ckeditor.js"></script>
+        <script>
+            CKEDITOR.replace('features')
         </script>
 
 </body>

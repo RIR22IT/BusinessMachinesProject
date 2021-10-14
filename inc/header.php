@@ -216,33 +216,33 @@
                                 <div class="row">
                                     <div class="col-10 col-sm-4 col-md-3 col-lg-4">
                                         <ul>
-                                            <li><a href="TimeAttendance.php">Time & Attendance</a></li>
-                                            <li><a href="SpecialProjects.php">Special Projects</a></li>
-                                            <li><a href="AccessControl.php">Access Control</a></li>
-                                            <li><a href="AccessControlLocks&Brackets.php">Access Control Locks & Brackets</a></li>
-                                            <li><a href="AccessControlAccessories.php">Access Control Accessories</a></li>
-                                            <li><a href="USBVideoConferencing.php">USB Video Conferencing</a></li>
+                                            <li><a href="allProducts.php">Time & Attendance</a></li>
+                                            <li><a href="allProducts.php">Special Projects</a></li>
+                                            <li><a href="allProducts.php">Access Control</a></li>
+                                            <li><a href="allProducts.php">Access Control Locks & Brackets</a></li>
+                                            <li><a href="allProducts.php">Access Control Accessories</a></li>
+                                            <li><a href="allProducts.php">USB Video Conferencing</a></li>
                                         </ul>
                                     </div>
                                     <div class="col-10 col-sm-4 col-md-3 col-lg-4">
                                         <ul>
-                                            <li><a href="VideoConferencingAccessories.php">Video Conferencing Accessories</a></li>
-                                            <li><a href="SinglePocketCurrencyCounter.php">Single Pocket Currency Counter</a></li>
-                                            <li><a href="DoublePocketCurrencyCounter.php">Double Pocket Currency Counter</a></li>
-                                            <li><a href="PostalFrankingMachines.php">Postal Franking Machines</a></li>
-                                            <li><a href="PaperShredders.php">Paper Shredders</a></li>
+                                            <li><a href="allProducts.php">Video Conferencing Accessories</a></li>
+                                            <li><a href="allProducts.php">Single Pocket Currency Counter</a></li>
+                                            <li><a href="allProducts.php">Double Pocket Currency Counter</a></li>
+                                            <li><a href="allProducts.php">Postal Franking Machines</a></li>
+                                            <li><a href="allProducts.php">Paper Shredders</a></li>
                                         </ul>
                                     </div>
                                     <div class="col-10 col-sm-4 col-md-3 col-lg-4 ">
                                         <ul>
 
-                                            <li><a href="PostalFrankingMachinesSupplies.php">Postal Franking Machines Supplies</a></li>
-                                            <li><a href="AirPurifiers.php">Air Purifiers</a></li>
-                                            <li><a href="HEPAFilters.php">HEPA Filters</a></li>
-                                            <li><a href="CarbonFilters.php">Carbon Filters</a></li>
-                                            <li><a href="HybridFilters.php">Hybrid Filters</a></li>
-                                            <li><a href="Display.php">Display</a></li>
-                                            <li><a href="Printer.php">Printer</a></li>
+                                            <li><a href="allProducts.php">Postal Franking Machines Supplies</a></li>
+                                            <li><a href="allProducts.php">Air Purifiers</a></li>
+                                            <li><a href="allProducts.php">HEPA Filters</a></li>
+                                            <li><a href="allProducts.php">Carbon Filters</a></li>
+                                            <li><a href="allProducts.php">Hybrid Filters</a></li>
+                                            <li><a href="allProducts.php">Display</a></li>
+                                            <li><a href="allProducts.php">Printer</a></li>
                                         </ul>
                                     </div>
                                     <!-- End MegaMenu -->
@@ -365,44 +365,44 @@
                         <li>
                             <a>Biometric Devices</a>
                             <ul>
-                                <li><a href="TimeAttendance.php">Time & Attendance</a></li>
-                                <li><a href="SpecialProjects.php">Special Projects</a></li>
-                                <li><a href="AccessControl.php">Access Control</a></li>
-                                <li><a href="ACLocksBrackets">Access Control Locks & Brackets</a></li>
-                                <li><a href="ACAccessories.php">Access Control Accessories</a></li>
+                                <li><a href="allProducts.php">Time & Attendance</a></li>
+                                <li><a href="allProducts.php">Special Projects</a></li>
+                                <li><a href="allProducts.php">Access Control</a></li>
+                                <li><a href="allProducts">Access Control Locks & Brackets</a></li>
+                                <li><a href="allProducts.php">Access Control Accessories</a></li>
                             </ul>
                         </li>
                         <li>
                             <a>Video Conferencing</a>
                             <ul>
-                                <li><a href="USBVideoConferencing.php">USB Video Conferencing</a></li>
-                                <li><a href="VideoAccessories.php">Video Conferencing Accessories</a></li>
-                                <li><a href="Printer.php">Printer</a></li>
+                                <li><a href="allProducts.php">USB Video Conferencing</a></li>
+                                <li><a href="allProducts.php">Video Conferencing Accessories</a></li>
+                                <li><a href="allProducts.php">Printer</a></li>
                             </ul>
                         </li>
                         <li>
                             <a>Bank Equipment</a>
                             <ul>
-                                <li><a href="singlePocket.php">Single Pocket Currency Counter</a></li>
-                                <li><a href="DoublePocket.php">Double Pocket Currency Counter</a></li>
-                                <li><a href="display.php">Display</a></li>
+                                <li><a href="allProducts.php">Single Pocket Currency Counter</a></li>
+                                <li><a href="allProducts.php">Double Pocket Currency Counter</a></li>
+                                <li><a href="allProducts.php">Display</a></li>
                             </ul>
                         </li>
                         <li>
                             <a>Office Equipment</a>
                             <ul>
-                                <li><a href="PaperShredders.php">Paper Shredders</a></li>
-                                <li><a href="PostalFranking.php">Postal Franking Machines</a></li>
-                                <li><a href="PostalFrankingSupplies.php">Postal Franking Machines Supplies</a></li>
+                                <li><a href="allProducts.php">Paper Shredders</a></li>
+                                <li><a href="allProducts.php">Postal Franking Machines</a></li>
+                                <li><a href="allProducts.php">Postal Franking Machines Supplies</a></li>
                             </ul>
                         </li>
                         <li>
                             <a>Health & Wellbeing</a>
                             <ul>
-                                <li><a href="AirPurifiers.php">Air Purifiers</a></li>
-                                <li><a href="HEPAFilters.php">HEPA Filters</a></li>
-                                <li><a href="CarbonFilters.php">Carbon Filters</a></li>
-                                <li><a href="HybridFilters.php">Hybrid Filters</a></li>
+                                <li><a href="allProducts.php">Air Purifiers</a></li>
+                                <li><a href="allProducts.php">HEPA Filters</a></li>
+                                <li><a href="allProducts.php">Carbon Filters</a></li>
+                                <li><a href="allProducts.php">Hybrid Filters</a></li>
                             </ul>
                         </li>
                         <li>

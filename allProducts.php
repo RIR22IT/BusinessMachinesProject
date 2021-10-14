@@ -70,31 +70,119 @@
                             <div class="sidebar-content">
                                 <div class="sticky-sidebar">
                                     <div class="widget widget-collapsible">
-                                        <h3 class="widget-title">All Categories</h3>
+                                        <h3 class="widget-title">All Sub Categories</h3>
                                         <ul class="widget-body filter-items search-ul">
-                                            <li><a href="#">Accessosries</a></li>
                                             <li>
-                                                <a href="#">Bags</a>
-                                                <ul style="display: block">
-                                                    <li><a href="#">Backpacks & Fashion Bags</a></li>
-                                                </ul>
-                                            </li>
-                                            <li>
-                                                <a href="#">Electronics</a>
+                                                <a>Time & Attendance</a>
                                                 <ul>
-                                                    <li><a href="#">Computer</a></li>
-                                                    <li><a href="#">Gaming & Accessosries</a></li>
+                                                    <li>
+                                                        <a>Face Scan</a>
+                                                        <ul>
+                                                            <li><a href="#">FS602</a></li>
+                                                            <li><a href="#">UF100</a></li>
+                                                        </ul>
+                                                    </li>
+                                                    <li>
+                                                        <a>Fingerprint</a>
+                                                        <ul>
+                                                            <li><a href="#">CMI819U</a></li>
+                                                            <li><a href="#">CMI300U</a></li>
+                                                            <li><a href="#">CMI681S</a></li>
+                                                        </ul>
+                                                    </li>
                                                 </ul>
                                             </li>
-                                            <li><a href="#">For Fitness</a></li>
-                                            <li><a href="#">Home & Kitchen</a></li>
-                                            <li><a href="#">Men's</a></li>
-                                            <li><a href="#">Shoes</a></li>
-                                            <li><a href="#">Sporting Goods</a></li>
-                                            <li><a href="#">Summer Season's</a></li>
-                                            <li><a href="#">Travel & Clothing</a></li>
-                                            <li><a href="#">Watches</a></li>
-                                            <li><a href="#">Women’s</a></li>
+                                            <li>
+                                                <a>Special Projects</a>
+                                                <ul>
+                                                    <li>
+                                                        <a>USB Fingerprint</a>
+                                                        <ul>
+                                                            <li><a href="#">FS-88H</a></li>
+                                                        </ul>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                            <li>
+                                                <a>Access Control</a>
+                                                <ul>
+                                                    <li>
+                                                        <a>Face Scan</a>
+                                                        <ul>
+                                                            <li><a href="#">FS602</a></li>
+                                                        </ul>
+                                                    </li>
+                                                    <li>
+                                                        <a>Fingerprint</a>
+                                                        <ul>
+                                                            <li><a href="#">F18</a></li>
+                                                        </ul>
+                                                    </li>
+                                                    <li>
+                                                        <a>RFID</a>
+                                                        <ul>
+                                                            <li><a href="#">CMG250</a></li>
+                                                            <li><a href="#">CMS810</a></li>
+                                                        </ul>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                            <li>
+                                                <a>Access Control Locks & Brackets</a>
+                                                <ul>
+                                                    <li>
+                                                        <a>Electromagnetic Lock & Bracket</a>
+                                                        <ul>
+                                                            <li><a href="#">600LBS Lock</a></li>
+                                                            <li><a href="#">600LBS LZ Bracket</a></li>
+                                                        </ul>
+                                                    </li>
+                                                    <li>
+                                                        <a>Electromagnetic Locks & Brackets</a>
+                                                        <ul>
+                                                            <li><a href="#">SL-167A</a></li>
+                                                            <li><a href="#">SL-130B</a></li>
+                                                            <li><a href="#">BR-100</a></li>
+                                                            <li><a href="#">UB-100</a></li>
+                                                        </ul>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                            <li>
+                                                <a>Access Control Accessories</a>
+                                                <ul>
+                                                    <li>
+                                                        <a>Power Supply</a>
+                                                        <ul>
+                                                            <li><a href="#">902-3C</a></li>
+                                                        </ul>
+                                                    </li>
+                                                    <li>
+                                                        <a>Slave Reader</a>
+                                                        <ul>
+                                                            <li><a href="#">FR1200</a></li>
+                                                        </ul>
+                                                    </li>
+                                                    <li>
+                                                        <a>Exit Push Button</a>
+                                                        <ul>
+                                                            <li><a href="#">SW-80</a></li>
+                                                        </ul>
+                                                    </li>
+                                                    <li>
+                                                        <a>Remote Exit Switch</a>
+                                                        <ul>
+                                                            <li><a href="#">K2</a></li>
+                                                        </ul>
+                                                    </li>
+                                                    <li>
+                                                        <a>Weigand Controller</a>
+                                                        <ul>
+                                                            <li><a href="#">Wiegand</a></li>
+                                                        </ul>
+                                                    </li>
+                                                </ul>
+                                            </li>
                                         </ul>
                                     </div>
                                 </div>
@@ -123,33 +211,31 @@
                                         $id  = $row['id'];
                                         $category = $row['category'];
                                         $subcategory = $row['subcategory'];
+                                        $model = $row['model'];
                                         $price = $row['price'];
                                         $img = $row['img'];
                                 ?>
                                         <div class="product-wrap">
                                             <div class="product">
                                                 <figure class="product-media">
-                                                    <a href="product.html">
-                                                    <?php echo '<img src="./admin/upload/productsImages/' . $img . '" alt="" width="280" height="315" />' ?>
+                                                    <a href="showProduct.php?view=<?php echo $id ?>&category=<?php echo $category ?>">
+                                                        <?php echo '<img src="./admin/upload/productsImages/' . $img . '" alt="" width="280" height="315" />' ?>
                                                     </a>
-                                                    <div class="product-action-vertical">
-                                                        <a href="#" class="btn-product-icon btn-cart" data-toggle="modal" data-target="#addCartModal" title="Add to cart"><i class="d-icon-bag"></i></a>
-                                                        <a href="#" class="btn-product-icon btn-wishlist" title="Add to wishlist"><i class="d-icon-heart"></i></a>
-                                                    </div>
-                                                    <div class="product-action">
+                                                    <!-- <div class="product-action">
                                                         <a href="#" class="btn-product btn-quickview" title="Quick View">Quick
                                                             View</a>
-                                                    </div>
+                                                    </div> -->
                                                 </figure>
                                                 <div class="product-details">
                                                     <div class="product-cat">
-                                                        <a href="shop-grid-3col.html"><?php echo $category?></a>
+                                                        <a href="showProduct.php?view=<?php echo $id ?>&category=<?php echo $category ?>"><?php echo $category ?></a> |
+                                                        <a href="showProduct.php?view=<?php echo $id ?>&category=<?php echo $category ?>"><?php echo $subcategory ?></a>
                                                     </div>
                                                     <h3 class="product-name">
-                                                        <a href="product.html"><?php echo $subcategory?></a>
+                                                        <a href="showProduct.php?view=<?php echo $id ?>&category=<?php echo $model ?>"><?php echo $model ?></a>
                                                     </h3>
                                                     <div class="product-price">
-                                                        <ins class="new-price">Rs.<?php echo $price?></ins>
+                                                        <ins class="new-price">Rs.<?php echo $price ?></ins>
                                                     </div>
                                                 </div>
                                             </div>

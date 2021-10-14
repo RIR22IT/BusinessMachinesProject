@@ -190,13 +190,8 @@ if (!isset($_SESSION['email'])) {
 
                             <div class="col-15">
                                 <label>Features*</label>
-                                <textarea id="features" name="features" rows="3" cols="70" style="border-color: #c3c6c9;" required>
+                                <textarea id="features" name="features" required>
                                     </textarea><br><br>
-
-                                <label>Description*</label>
-                                <textarea id="description" name="description" rows="3" cols="70" style="border-color: #c3c6c9;" required>
-                                </textarea><br><br>
-
                             </div><br>
 
                             <div class="col-md-20">
@@ -254,6 +249,12 @@ if (!isset($_SESSION['email'])) {
                 newimg.width = "300";
                 imagediv.appendChild(newimg);
             }
+        </script>
+
+        <!-- CK EDITOR -->
+        <script src = "../ckeditor/ckeditor.js"></script>
+        <script>
+            CKEDITOR.replace('features')
         </script>
 
 </body>

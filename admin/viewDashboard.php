@@ -117,7 +117,6 @@ if (!isset($_SESSION['email'])) {
                                         <th style="color: white">SubCategory</th>
                                         <th style="color: white">Warranty</th>
                                         <th style="color: white">Features</th>
-                                        <th style="color: white">Description</th>
                                         <th style="color: white">Type</th>
                                         <th style="color: white">Brand</th>
                                         <th style="color: white">Model</th>
@@ -146,11 +145,6 @@ if (!isset($_SESSION['email'])) {
                                             <td>
                                                 <textarea disabled style="width: 300px; height: 100px;">
                                                 <?php echo $row['features']; ?>
-                                            </textarea>
-                                            </td>
-                                            <td>
-                                                <textarea disabled style="width: 300px; height: 100px;">
-                                                <?php echo $row['description']; ?>
                                             </textarea>
                                             </td>
                                             <td><?php echo $row['type']; ?></td>
